@@ -1,0 +1,2 @@
+source D:/DEV_ESP32/Project_2/Project_Wifi/build/bootloader/gdbinit/symbols
+source D:/DEV_ESP32/Project_2/Project_Wifi/build/bootloader/gdbinit/connect

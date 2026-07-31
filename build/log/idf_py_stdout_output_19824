@@ -1,0 +1,32 @@
+[1/10] Performing build step for 'bootloader'
+[1/1] C:\WINDOWS\system32\cmd.exe /C "cd /D D:\DEV_ESP32\Project_2\Project_Wifi\build\bootloader\esp-idf\esptool_py && C:\ESP32\env\Espressif\python_env\idf5.4_py3.11_env\Scripts\python.exe C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 D:/DEV_ESP32/Project_2/Project_Wifi/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6570 bytes. 0xa90 bytes (9%) free.
+[2/10] No install step for 'bootloader'
+[3/10] Completed 'bootloader'
+[4/10] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Project_wifi.c.obj
+[5/10] Linking C static library esp-idf\main\libmain.a
+[6/10] Generating ld/sections.ld
+FAILED: esp-idf/esp_system/ld/sections.ld D:/DEV_ESP32/Project_2/Project_Wifi/build/esp-idf/esp_system/ld/sections.ld 
+esp-idf\esp_system\CMakeFiles\sections.ld-d65dc84.bat 78071d765c0fa716
+Traceback (most recent call last):
+  File "C:\ESP32\env\Espressif\frameworks\esp-idf-v5.4.3\tools\ldgen\ldgen.py", line 176, in <module>
+    main()
+  File "C:\ESP32\env\Espressif\frameworks\esp-idf-v5.4.3\tools\ldgen\ldgen.py", line 139, in main
+    sdkconfig = SDKConfig(kconfig_file, config_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ESP32\env\Espressif\frameworks\esp-idf-v5.4.3\tools\ldgen\ldgen\sdkconfig.py", line 14, in __init__
+    self.config = kconfiglib.Kconfig(kconfig_file)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ESP32\env\Espressif\python_env\idf5.4_py3.11_env\Lib\site-packages\kconfiglib\core.py", line 920, in __init__
+    self()
+  File "C:\ESP32\env\Espressif\python_env\idf5.4_py3.11_env\Lib\site-packages\kconfiglib\core.py", line 934, in __call__
+    prev = self._parse_block(None, self.top_node, self.top_node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ESP32\env\Espressif\python_env\idf5.4_py3.11_env\Lib\site-packages\kconfiglib\core.py", line 2581, in _parse_block
+    prev = self._parse_block(None, parent, prev)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ESP32\env\Espressif\python_env\idf5.4_py3.11_env\Lib\site-packages\kconfiglib\core.py", line 2566, in _parse_block
+    raise KconfigError(
+kconfiglib.core.KconfigError: D:/DEV_ESP32/Project_2/Project_Wifi/build/kconfigs_projbuild.in:6: 'D:/DEV_ESP32/Project_2/Project_Wifi/main/Kconfig.projbuild' not found (in 'source "D:/DEV_ESP32/Project_2/Project_Wifi/main/Kconfig.projbuild"'). Check that environment variables are set correctly (e.g. $srctree, which is unset or blank). Also note that unset environment variables expand to the empty string.
+Batch file failed at line 3 with errorcode 1
+ninja: build stopped: subcommand failed.
