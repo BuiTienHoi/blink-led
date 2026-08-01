@@ -549,6 +549,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("D:/DEV_ESP32/Project_2/Project_Wifi/build/esp-idf/Project_wifi/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("D:/DEV_ESP32/Project_2/Project_Wifi/build/esp-idf/main/cmake_install.cmake")
 endif()
 

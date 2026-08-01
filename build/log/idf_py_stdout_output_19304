@@ -1,0 +1,207 @@
+[0/1] Re-running CMake...
+-- git rev-parse returned 'fatal: detected dubious ownership in repository at 'C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3'
+'C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3' is owned by:
+	BUILTIN/Administrators (S-1-5-32-544)
+but the current user is:
+	LAPTOP-F5PGRJRK/admin (S-1-5-21-1782833517-1922123799-4081505492-1001)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3'
+-- Component directory D:/DEV_ESP32/Project_2/Project_Wifi/components/DHT11 does not contain a CMakeLists.txt file. No component will be added
+-- ccache will be used for faster recompilation
+-- Building ESP-IDF components for target esp32
+NOTICE: Processing 1 dependencies:
+NOTICE: [1/1] idf (5.4.3)
+-- Project sdkconfig file D:/DEV_ESP32/Project_2/Project_Wifi/sdkconfig
+-- Compiler supported targets: xtensa-esp-elf
+-- USING O3
+-- App "Project_wifi" version: f8a2442-dirty
+-- Adding linker script D:/DEV_ESP32/Project_2/Project_Wifi/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script D:/DEV_ESP32/Project_2/Project_Wifi/build/esp-idf/esp_system/ld/sections.ld.in
+-- Adding linker script C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: Project_wifi app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_driver_ana_cmpr esp_driver_cam esp_driver_dac esp_driver_gpio esp_driver_gptimer esp_driver_i2c esp_driver_i2s esp_driver_isp esp_driver_jpeg esp_driver_ledc esp_driver_mcpwm esp_driver_parlio esp_driver_pcnt esp_driver_ppa esp_driver_rmt esp_driver_sdio esp_driver_sdm esp_driver_sdmmc esp_driver_sdspi esp_driver_spi esp_driver_touch_sens esp_driver_tsens esp_driver_uart esp_driver_usb_serial_jtag esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_security esp_system esp_timer esp_vfs_console esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table perfmon protobuf-c protocomm pthread rt sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: D:/DEV_ESP32/Project_2/Project_Wifi/components/Project_wifi C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/app_trace C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/app_update C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/bootloader C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/bootloader_support C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/bt C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/cmock C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/console C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/cxx C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/driver C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/efuse C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp-tls C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_adc C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_app_format C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_bootloader_format C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_coex C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_common C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_driver_ana_cmpr C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_driver_cam C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_driver_dac C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_driver_gpio C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_driver_gptimer C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_driver_i2c C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_driver_i2s C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_driver_isp C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_driver_jpeg C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_driver_ledc C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_driver_mcpwm C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_driver_parlio C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_driver_pcnt C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_driver_ppa C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_driver_rmt C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_driver_sdio C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_driver_sdm C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_driver_sdmmc C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_driver_sdspi C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_driver_spi C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_driver_touch_sens C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_driver_tsens C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_driver_uart C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_driver_usb_serial_jtag C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_eth C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_event C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_gdbstub C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_hid C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_http_client C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_http_server C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_https_ota C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_https_server C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_hw_support C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_lcd C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_local_ctrl C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_mm C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_netif C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_netif_stack C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_partition C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_phy C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_pm C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_psram C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_ringbuf C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_rom C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_security C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_system C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_timer C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_vfs_console C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_wifi C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/espcoredump C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esptool_py C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/fatfs C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/freertos C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/hal C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/heap C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/http_parser C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/idf_test C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/ieee802154 C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/json C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/log C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/lwip D:/DEV_ESP32/Project_2/Project_Wifi/main C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/mbedtls C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/mqtt C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/newlib C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/nvs_flash C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/nvs_sec_provider C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/openthread C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/partition_table C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/perfmon C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/protobuf-c C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/protocomm C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/pthread C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/rt C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/sdmmc C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/soc C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/spi_flash C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/spiffs C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/tcp_transport C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/ulp C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/unity C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/usb C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/vfs C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/wear_levelling C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/wifi_provisioning C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/wpa_supplicant C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/xtensa
+-- Configuring done (5.0s)
+-- Generating done (3.8s)
+-- Build files have been written to: D:/DEV_ESP32/Project_2/Project_Wifi/build
+[1/14] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+[2/14] Building C object esp-idf/Project_wifi/CMakeFiles/__idf_Project_wifi.dir/Project_wifi.c.obj
+[3/14] Linking C static library esp-idf\Project_wifi\libProject_wifi.a
+[4/14] Linking C static library esp-idf\main\libmain.a
+[5/14] Performing build step for 'bootloader'
+[0/1] Re-running CMake...
+-- git rev-parse returned 'fatal: detected dubious ownership in repository at 'C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3'
+'C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3' is owned by:
+	BUILTIN/Administrators (S-1-5-32-544)
+but the current user is:
+	LAPTOP-F5PGRJRK/admin (S-1-5-21-1782833517-1922123799-4081505492-1001)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3'
+fatal: detected dubious ownership in repository at 'C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3'
+'C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3' is owned by:
+	BUILTIN/Administrators (S-1-5-32-544)
+but the current user is:
+	LAPTOP-F5PGRJRK/admin (S-1-5-21-1782833517-1922123799-4081505492-1001)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3
+-- git rev-parse returned 'fatal: detected dubious ownership in repository at 'C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3'
+'C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3' is owned by:
+	BUILTIN/Administrators (S-1-5-32-544)
+but the current user is:
+	LAPTOP-F5PGRJRK/admin (S-1-5-21-1782833517-1922123799-4081505492-1001)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file D:/DEV_ESP32/Project_2/Project_Wifi/sdkconfig
+-- Compiler supported targets: xtensa-esp-elf
+-- Adding linker script C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/soc/esp32/ld/esp32.peripherals.ld
+-- Bootloader project name: "bootloader" version: 1
+-- Adding linker script C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/bootloader/subproject/main/ld/esp32/bootloader.ld
+-- Adding linker script C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/bootloader/subproject/main/ld/esp32/bootloader.rom.ld
+-- Components: bootloader bootloader_support efuse esp_app_format esp_bootloader_format esp_common esp_hw_support esp_rom esp_security esp_system esptool_py freertos hal log main micro-ecc newlib partition_table soc spi_flash xtensa
+-- Component paths: C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/bootloader C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/bootloader_support C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/efuse C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_app_format C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_bootloader_format C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_common C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_hw_support C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_rom C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_security C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esp_system C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esptool_py C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/freertos C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/hal C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/log C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/bootloader/subproject/main C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/bootloader/subproject/components/micro-ecc C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/newlib C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/partition_table C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/soc C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/spi_flash C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/xtensa
+-- Configuring done (3.1s)
+-- Generating done (0.3s)
+-- Build files have been written to: D:/DEV_ESP32/Project_2/Project_Wifi/build/bootloader
+[1/2] C:\WINDOWS\system32\cmd.exe /C "cd /D D:\DEV_ESP32\Project_2\Project_Wifi\build\bootloader\esp-idf\esptool_py && C:\ESP32\env\Espressif\python_env\idf5.4_py3.11_env\Scripts\python.exe C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 D:/DEV_ESP32/Project_2/Project_Wifi/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6570 bytes. 0xa90 bytes (9%) free.
+[6/14] No install step for 'bootloader'
+[7/14] Completed 'bootloader'
+[8/14] Generating ld/sections.ld
+info: INFO: Symbol ESP_WIFI_SSID defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:3
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:3
+info: INFO: Symbol ESP_WIFI_PASSWORD defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:9
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:9
+info: INFO: Symbol ESP_WPA3_SAE_PWE_HUNT_AND_PECK defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:20
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:20
+info: INFO: Symbol ESP_WPA3_SAE_PWE_HASH_TO_ELEMENT defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:22
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:22
+info: INFO: Symbol ESP_WPA3_SAE_PWE_BOTH defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:24
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:24
+info: INFO: Symbol ESP_WIFI_PW_ID defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:28
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:28
+info: INFO: Symbol ESP_MAXIMUM_RETRY defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:35
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:35
+info: INFO: Symbol ESP_WIFI_AUTH_OPEN defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:49
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:49
+info: INFO: Symbol ESP_WIFI_AUTH_WEP defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:51
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:51
+info: INFO: Symbol ESP_WIFI_AUTH_WPA_PSK defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:53
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:53
+info: INFO: Symbol ESP_WIFI_AUTH_WPA2_PSK defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:55
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:55
+info: INFO: Symbol ESP_WIFI_AUTH_WPA_WPA2_PSK defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:57
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:57
+info: INFO: Symbol ESP_WIFI_AUTH_WPA3_PSK defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:59
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:59
+info: INFO: Symbol ESP_WIFI_AUTH_WPA2_WPA3_PSK defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:61
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:61
+info: INFO: Symbol ESP_WIFI_AUTH_WAPI_PSK defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:63
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:63
+info: INFO: Choice ESP_WIFI_SAE_MODE defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:15
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:15
+info: INFO: Choice ESP_WIFI_SCAN_AUTH_MODE_THRESHOLD defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:41
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:41
+[9/14] Building C object CMakeFiles/Project_wifi.elf.dir/project_elf_src_esp32.c.obj
+[10/14] Linking CXX executable Project_wifi.elf
+[11/14] Generating binary image from built executable
+esptool.py v4.10.0
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated D:/DEV_ESP32/Project_2/Project_Wifi/build/Project_wifi.bin
+[12/14] C:\WINDOWS\system32\cmd.exe /C "cd /D D:\DEV_ESP32\Project_2\Project_Wifi\build\esp-idf\esptool_py && C:\ESP32\env\Espressif\python_env\idf5.4_py3.11_env\Scripts\python.exe C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/partition_table/check_sizes.py --offset 0x8000 partition --type app D:/DEV_ESP32/Project_2/Project_Wifi/build/partition_table/partition-table.bin D:/DEV_ESP32/Project_2/Project_Wifi/build/Project_wifi.bin"
+Project_wifi.bin binary size 0xb4830 bytes. Smallest app partition is 0x100000 bytes. 0x4b7d0 bytes (29%) free.
+[12/14] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\ESP32\env\Espressif\frameworks\esp-idf-v5.4.3\components\esptool_py && C:\ESP32\env\Espressif\tools\cmake\3.30.2\bin\cmake.exe -D IDF_PATH=C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3 -D SERIAL_TOOL=C:/ESP32/env/Espressif/python_env/idf5.4_py3.11_env/Scripts/python.exe;;C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esptool_py/esptool/esptool.py;--chip;esp32 -D SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args -D WORKING_DIRECTORY=D:/DEV_ESP32/Project_2/Project_Wifi/build -P C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esptool_py/run_serial_tool.cmake"
+esptool.py --chip esp32 -p COM6 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x1000 bootloader/bootloader.bin 0x10000 Project_wifi.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.10.0
+Serial port COM6
+Connecting....
+Chip is ESP32-D0WD-V3 (revision v3.1)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: 88:13:bf:24:df:6c
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x000c4fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+SHA digest in image updated
+Compressed 25968 bytes to 16375...
+Writing at 0x00001000... (100 %)
+Wrote 25968 bytes (16375 compressed) at 0x00001000 in 0.7 seconds (effective 291.7 kbit/s)...
+Hash of data verified.
+Compressed 739376 bytes to 469621...
+Writing at 0x00010000... (3 %)
+Writing at 0x0001c4cf... (6 %)
+Writing at 0x00024d86... (10 %)
+Writing at 0x0002eff4... (13 %)
+Writing at 0x000349a6... (17 %)
+Writing at 0x0003a7af... (20 %)
+Writing at 0x000404a9... (24 %)
+Writing at 0x00046488... (27 %)
+Writing at 0x0004bfcc... (31 %)
+Writing at 0x0005204f... (34 %)
+Writing at 0x00057506... (37 %)
+Writing at 0x0005d09c... (41 %)
+Writing at 0x00062b14... (44 %)
+Writing at 0x00068311... (48 %)
+Writing at 0x0006d99a... (51 %)
+Writing at 0x000734fd... (55 %)
+Writing at 0x0007946b... (58 %)
+Writing at 0x0007ed24... (62 %)
+Writing at 0x000848e6... (65 %)
+Writing at 0x0008a61e... (68 %)
+Writing at 0x0008feda... (72 %)
+Writing at 0x00095c31... (75 %)
+Writing at 0x0009b7cb... (79 %)
+Writing at 0x000a1016... (82 %)
+Writing at 0x000a9b2f... (86 %)
+Writing at 0x000af808... (89 %)
+Writing at 0x000b5439... (93 %)
+Writing at 0x000bb8ff... (96 %)
+Writing at 0x000c0cbd... (100 %)
+Wrote 739376 bytes (469621 compressed) at 0x00010000 in 11.2 seconds (effective 528.5 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.1 seconds (effective 491.1 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

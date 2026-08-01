@@ -1,0 +1,31 @@
+-- IDF_TARGET is not set, guessed 'esp32' from sdkconfig 'D:/DEV_ESP32/Project_2/Project_Wifi/sdkconfig'
+-- Found Git: C:/ESP32/env/Espressif/tools/idf-git/2.44.0/cmd/git.exe (found version "2.44.0.windows.1")
+-- git rev-parse returned 'fatal: detected dubious ownership in repository at 'C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3'
+'C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3' is owned by:
+	BUILTIN/Administrators (S-1-5-32-544)
+but the current user is:
+	LAPTOP-F5PGRJRK/admin (S-1-5-21-1782833517-1922123799-4081505492-1001)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3'
+-- ccache will be used for faster recompilation
+-- The C compiler identification is GNU 14.2.0
+-- The CXX compiler identification is GNU 14.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: C:/ESP32/env/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/ESP32/env/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/ESP32/env/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/xtensa-esp32-elf-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Building ESP-IDF components for target esp32
+NOTICE: Dependencies lock doesn't exist, solving dependencies.
+.NOTICE: Updating lock file at D:\DEV_ESP32\Project_2\Project_Wifi\dependencies.lock
+NOTICE: Processing 1 dependencies:
+NOTICE: [1/1] idf (5.4.3)
+-- Configuring incomplete, errors occurred!

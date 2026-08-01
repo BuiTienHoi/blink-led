@@ -1,0 +1,19 @@
+fatal: detected dubious ownership in repository at 'C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3'
+'C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3' is owned by:
+	BUILTIN/Administrators (S-1-5-32-544)
+but the current user is:
+	LAPTOP-F5PGRJRK/admin (S-1-5-21-1782833517-1922123799-4081505492-1001)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3
+CMake Error at C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/tools/cmake/build.cmake:328 (message):
+  Failed to resolve component 'Project_wifi' required by component 'main':
+  unknown name.
+Call Stack (most recent call first):
+  C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/tools/cmake/build.cmake:371 (__build_resolve_and_add_req)
+  C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/tools/cmake/build.cmake:684 (__build_expand_requirements)
+  C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/tools/cmake/project.cmake:722 (idf_build_process)
+  CMakeLists.txt:6 (project)
+
+
+ninja: error: rebuilding 'build.ninja': subcommand failed

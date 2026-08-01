@@ -1,0 +1,75 @@
+fatal: detected dubious ownership in repository at 'C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3'
+'C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3' is owned by:
+	BUILTIN/Administrators (S-1-5-32-544)
+but the current user is:
+	LAPTOP-F5PGRJRK/admin (S-1-5-21-1782833517-1922123799-4081505492-1001)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3
+info: INFO: Symbol ESP_WIFI_SSID defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:3
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:3
+info: INFO: Symbol ESP_WIFI_PASSWORD defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:9
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:9
+info: INFO: Symbol ESP_WPA3_SAE_PWE_HUNT_AND_PECK defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:20
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:20
+info: INFO: Symbol ESP_WPA3_SAE_PWE_HASH_TO_ELEMENT defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:22
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:22
+info: INFO: Symbol ESP_WPA3_SAE_PWE_BOTH defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:24
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:24
+info: INFO: Symbol ESP_WIFI_PW_ID defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:28
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:28
+info: INFO: Symbol ESP_MAXIMUM_RETRY defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:35
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:35
+info: INFO: Symbol ESP_WIFI_AUTH_OPEN defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:49
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:49
+info: INFO: Symbol ESP_WIFI_AUTH_WEP defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:51
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:51
+info: INFO: Symbol ESP_WIFI_AUTH_WPA_PSK defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:53
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:53
+info: INFO: Symbol ESP_WIFI_AUTH_WPA2_PSK defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:55
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:55
+info: INFO: Symbol ESP_WIFI_AUTH_WPA_WPA2_PSK defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:57
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:57
+info: INFO: Symbol ESP_WIFI_AUTH_WPA3_PSK defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:59
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:59
+info: INFO: Symbol ESP_WIFI_AUTH_WPA2_WPA3_PSK defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:61
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:61
+info: INFO: Symbol ESP_WIFI_AUTH_WAPI_PSK defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:63
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:63
+info: INFO: Choice ESP_WIFI_SAE_MODE defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:15
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:15
+info: INFO: Choice ESP_WIFI_SCAN_AUTH_MODE_THRESHOLD defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:41
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:41
+fatal: detected dubious ownership in repository at 'C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3'
+'C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3' is owned by:
+	BUILTIN/Administrators (S-1-5-32-544)
+but the current user is:
+	LAPTOP-F5PGRJRK/admin (S-1-5-21-1782833517-1922123799-4081505492-1001)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3
+fatal: detected dubious ownership in repository at 'C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/openthread/openthread'
+'C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/openthread/openthread/.git' is owned by:
+	BUILTIN/Administrators (S-1-5-32-544)
+but the current user is:
+	LAPTOP-F5PGRJRK/admin (S-1-5-21-1782833517-1922123799-4081505492-1001)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/openthread/openthread

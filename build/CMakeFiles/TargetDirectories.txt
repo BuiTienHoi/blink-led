@@ -824,6 +824,13 @@ D:/DEV_ESP32/Project_2/Project_Wifi/build/esp-idf/wifi_provisioning/CMakeFiles/l
 D:/DEV_ESP32/Project_2/Project_Wifi/build/esp-idf/wifi_provisioning/CMakeFiles/install.dir
 D:/DEV_ESP32/Project_2/Project_Wifi/build/esp-idf/wifi_provisioning/CMakeFiles/install/local.dir
 D:/DEV_ESP32/Project_2/Project_Wifi/build/esp-idf/wifi_provisioning/CMakeFiles/install/strip.dir
+D:/DEV_ESP32/Project_2/Project_Wifi/build/esp-idf/Project_wifi/CMakeFiles/__idf_Project_wifi.dir
+D:/DEV_ESP32/Project_2/Project_Wifi/build/esp-idf/Project_wifi/CMakeFiles/edit_cache.dir
+D:/DEV_ESP32/Project_2/Project_Wifi/build/esp-idf/Project_wifi/CMakeFiles/rebuild_cache.dir
+D:/DEV_ESP32/Project_2/Project_Wifi/build/esp-idf/Project_wifi/CMakeFiles/list_install_components.dir
+D:/DEV_ESP32/Project_2/Project_Wifi/build/esp-idf/Project_wifi/CMakeFiles/install.dir
+D:/DEV_ESP32/Project_2/Project_Wifi/build/esp-idf/Project_wifi/CMakeFiles/install/local.dir
+D:/DEV_ESP32/Project_2/Project_Wifi/build/esp-idf/Project_wifi/CMakeFiles/install/strip.dir
 D:/DEV_ESP32/Project_2/Project_Wifi/build/esp-idf/main/CMakeFiles/__idf_main.dir
 D:/DEV_ESP32/Project_2/Project_Wifi/build/esp-idf/main/CMakeFiles/edit_cache.dir
 D:/DEV_ESP32/Project_2/Project_Wifi/build/esp-idf/main/CMakeFiles/rebuild_cache.dir

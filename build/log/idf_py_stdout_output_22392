@@ -1,0 +1,128 @@
+[1/8] Performing build step for 'bootloader'
+[1/1] C:\WINDOWS\system32\cmd.exe /C "cd /D D:\DEV_ESP32\Project_2\Project_Wifi\build\bootloader\esp-idf\esptool_py && C:\ESP32\env\Espressif\python_env\idf5.4_py3.11_env\Scripts\python.exe C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 D:/DEV_ESP32/Project_2/Project_Wifi/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6570 bytes. 0xa90 bytes (9%) free.
+[2/8] No install step for 'bootloader'
+[3/8] Completed 'bootloader'
+[4/8] Generating ld/sections.ld
+info: INFO: Symbol ESP_WIFI_SSID defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:3
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:3
+info: INFO: Symbol ESP_WIFI_PASSWORD defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:9
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:9
+info: INFO: Symbol ESP_WPA3_SAE_PWE_HUNT_AND_PECK defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:20
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:20
+info: INFO: Symbol ESP_WPA3_SAE_PWE_HASH_TO_ELEMENT defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:22
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:22
+info: INFO: Symbol ESP_WPA3_SAE_PWE_BOTH defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:24
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:24
+info: INFO: Symbol ESP_WIFI_PW_ID defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:28
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:28
+info: INFO: Symbol ESP_MAXIMUM_RETRY defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:35
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:35
+info: INFO: Symbol ESP_WIFI_AUTH_OPEN defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:49
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:49
+info: INFO: Symbol ESP_WIFI_AUTH_WEP defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:51
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:51
+info: INFO: Symbol ESP_WIFI_AUTH_WPA_PSK defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:53
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:53
+info: INFO: Symbol ESP_WIFI_AUTH_WPA2_PSK defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:55
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:55
+info: INFO: Symbol ESP_WIFI_AUTH_WPA_WPA2_PSK defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:57
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:57
+info: INFO: Symbol ESP_WIFI_AUTH_WPA3_PSK defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:59
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:59
+info: INFO: Symbol ESP_WIFI_AUTH_WPA2_WPA3_PSK defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:61
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:61
+info: INFO: Symbol ESP_WIFI_AUTH_WAPI_PSK defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:63
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:63
+info: INFO: Choice ESP_WIFI_SAE_MODE defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:15
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:15
+info: INFO: Choice ESP_WIFI_SCAN_AUTH_MODE_THRESHOLD defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    D:\DEV_ESP32\Project_2\Project_Wifi\main\Kconfig.projbuild:41
+    D:\DEV_ESP32\Project_2\Project_Wifi\components\Project_wifi\Kconfig.projbuild:41
+[5/8] Linking CXX executable Project_wifi.elf
+[6/8] Generating binary image from built executable
+esptool.py v4.10.0
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated D:/DEV_ESP32/Project_2/Project_Wifi/build/Project_wifi.bin
+[7/8] C:\WINDOWS\system32\cmd.exe /C "cd /D D:\DEV_ESP32\Project_2\Project_Wifi\build\esp-idf\esptool_py && C:\ESP32\env\Espressif\python_env\idf5.4_py3.11_env\Scripts\python.exe C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/partition_table/check_sizes.py --offset 0x8000 partition --type app D:/DEV_ESP32/Project_2/Project_Wifi/build/partition_table/partition-table.bin D:/DEV_ESP32/Project_2/Project_Wifi/build/Project_wifi.bin"
+Project_wifi.bin binary size 0xb4830 bytes. Smallest app partition is 0x100000 bytes. 0x4b7d0 bytes (29%) free.
+[7/8] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\ESP32\env\Espressif\frameworks\esp-idf-v5.4.3\components\esptool_py && C:\ESP32\env\Espressif\tools\cmake\3.30.2\bin\cmake.exe -D IDF_PATH=C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3 -D SERIAL_TOOL=C:/ESP32/env/Espressif/python_env/idf5.4_py3.11_env/Scripts/python.exe;;C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esptool_py/esptool/esptool.py;--chip;esp32 -D SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args -D WORKING_DIRECTORY=D:/DEV_ESP32/Project_2/Project_Wifi/build -P C:/ESP32/env/Espressif/frameworks/esp-idf-v5.4.3/components/esptool_py/run_serial_tool.cmake"
+esptool.py --chip esp32 -p COM6 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x1000 bootloader/bootloader.bin 0x10000 Project_wifi.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.10.0
+Serial port COM6
+Connecting....
+Chip is ESP32-D0WD-V3 (revision v3.1)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: 88:13:bf:24:df:6c
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x000c4fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+SHA digest in image updated
+Compressed 25968 bytes to 16375...
+Writing at 0x00001000... (100 %)
+Wrote 25968 bytes (16375 compressed) at 0x00001000 in 0.8 seconds (effective 275.3 kbit/s)...
+Hash of data verified.
+Compressed 739376 bytes to 469621...
+Writing at 0x00010000... (3 %)
+Writing at 0x0001c4cf... (6 %)
+Writing at 0x00024d86... (10 %)
+Writing at 0x0002eff4... (13 %)
+Writing at 0x000349a6... (17 %)
+Writing at 0x0003a7af... (20 %)
+Writing at 0x000404a9... (24 %)
+Writing at 0x00046488... (27 %)
+Writing at 0x0004bfcc... (31 %)
+Writing at 0x0005204f... (34 %)
+Writing at 0x00057506... (37 %)
+Writing at 0x0005d09c... (41 %)
+Writing at 0x00062b14... (44 %)
+Writing at 0x00068311... (48 %)
+Writing at 0x0006d99a... (51 %)
+Writing at 0x000734fd... (55 %)
+Writing at 0x0007946b... (58 %)
+Writing at 0x0007ed24... (62 %)
+Writing at 0x000848e6... (65 %)
+Writing at 0x0008a61e... (68 %)
+Writing at 0x0008feda... (72 %)
+Writing at 0x00095c31... (75 %)
+Writing at 0x0009b7cb... (79 %)
+Writing at 0x000a1016... (82 %)
+Writing at 0x000a9b2f... (86 %)
+Writing at 0x000af808... (89 %)
+Writing at 0x000b5439... (93 %)
+Writing at 0x000bb8ff... (96 %)
+Writing at 0x000c0cbd... (100 %)
+Wrote 739376 bytes (469621 compressed) at 0x00010000 in 11.2 seconds (effective 529.1 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.1 seconds (effective 469.1 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
